@@ -1,0 +1,118 @@
+/*----------------------------------------------------------------------------*/
+/* COLOR SCHEME */
+/*----------------------------------------------------------------------------*/
+
+
+/*
+  green  : #1B998B;
+  pink   : #ED217C;
+  dark   : #2D3047;
+  yellow : #FFFD82;
+  orange : #FF9B71;
+  black  : #0A0908;
+  white  : #F2F4F3;
+*/
+
+/*
+red    : #ED254E;
+tea    : #C2EABD;
+yellow : #FFFD82;
+navy   : #011936;
+grey   : #465362;
+magenta: #5F0F40;
+black  : #0A0908;
+white  : #F2F4F3;
+*/
+
+
+/*----------------------------------------------------------------------------*/
+/*GENERAL*/
+/*----------------------------------------------------------------------------*/
+
+body {
+  background-color: #0A0908;
+}
+
+#header{
+  font-size: 10vw;
+  font-family: 'Oswald', sans-serif;
+  color: #FFFD82;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+#sub-header{
+  font-size: 3vw;
+  font-family: 'Oswald', sans-serif;
+  color  : #011936;
+  text-align: center;
+}
+
+#thank-you{
+  color: #011936;
+  text-align: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.parent {
+  position: relative;
+  height: 30vh;
+  width: 100vw;
+}
+
+.child {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.img-pick{
+  width: 100%;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/* iPHONE */
+/* Custom, iPhone Retina */
+/*----------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 0px) {
+}
+
+
+/*----------------------------------------------------------------------------*/
+/* X-SMALL */
+/* Extra Small Devices, Phones */
+/*----------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) {
+}
+
+
+/*----------------------------------------------------------------------------*/
+/* SMALL */
+/* Small Devices, Tablets */
+/*----------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+}
+
+
+/*----------------------------------------------------------------------------*/
+/* MEDIUM */
+/* Medium Devices, Desktops */
+/*----------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+}
+
+
+/*----------------------------------------------------------------------------*/
+/* LARGE */
+/* Large Devices, Wide Screens */
+/*----------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+}
